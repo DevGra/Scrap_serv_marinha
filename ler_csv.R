@@ -18,3 +18,5 @@ str(db)
 
 #grava o arquivo 
 write.xlsx(db, "Servidores_marinha.xlsx")
+
+teste <- read.csv2("teste.csv", header = TRUE, sep = ",")

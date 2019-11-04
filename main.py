@@ -75,7 +75,7 @@ while True:
                     writer = csv.DictWriter(f, fieldnames=nm_columns) # lineterminator = '\n'
                     writer.writeheader()
                     print("FIM DA GRAVACAO DO CABEÇALHO DE SERVIDORES")
-        import pdb; pdb.set_trace()
+        #import pdb; pdb.set_trace()
         for registro in data:
             print(l)
             print(registro)
